@@ -37,8 +37,14 @@ div img {
 
 }
 [class*="col-"]{
-	margin-left: 4%;
+	margin: 12px;
 	border-radius: 10px;
+	justify-content: space-between;
+	box-shadow: 5px 5px 10px slategray;
+	/*flex: 0 0 92%; no idea why she implemented this line*/
+}
+[src*=".jpg"]{
+	margin-left: 8px;
 }
 .col-1-2,
 .col-1-4{
@@ -58,9 +64,17 @@ div img {
 	.col-1-2,
 	.col-2{
 		flex: 0 0 44%;
+		order: 2;
 	}
 	.col-1-4, .col-3, .col-4{
 		flex: 0 0 92%;
+	}
+	.col-6-3{
+		flex: 0 0 44%;
+	}
+	.col-3-6{
+		flex: 0 0 92%;
+		order: -1;
 	}
 }
 /* Desktop screen Sizes */
@@ -77,5 +91,20 @@ div img {
 	}
 	.col-4{
 		flex: 0 0 92%;
+	}
+	.col-6-3{
+		flex: 0 0 20%;
+	}
+	.col-3-6{
+		flex: 0 0 44%;
+		order: 0;
+	}
+	.reverse{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.reverse [class*='col-1']{
+		margin-left: 0%;
+		margin-right: 4%;
 	}
 }
