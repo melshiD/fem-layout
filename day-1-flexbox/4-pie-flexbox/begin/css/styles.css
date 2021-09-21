@@ -13,7 +13,7 @@ body {
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Niconne', cursive;
-  font-weight: normal;
+  font-weight: 200;
   color: #C80060;
 }
 .wrapper {
@@ -29,7 +29,8 @@ nav {
 }
 nav ul {
   list-style-type: none;
-  background-color: #e6bf98; 
+  /*background-color: #e6bf98; */
+  background-color: #e6b800;
   padding: .75em;
   margin: 12px 0 0 0;
   border-bottom: 3px solid #cc8850;
@@ -55,7 +56,7 @@ nav a {
   padding-left:3.333333%;
 }
 nav a:hover {
-  color:#00c4c7;
+  color:#ff3333;
 }
 
 
@@ -132,7 +133,7 @@ footer img {
   width: 52px;
 }
 footer a {
-  color: white;
+  color: rgb(36, 137, 199);
   text-decoration: none;
 }
 

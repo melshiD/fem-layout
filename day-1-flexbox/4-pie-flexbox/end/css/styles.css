@@ -195,7 +195,7 @@ div.row {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 850px) { 
   .wrapper {
-      width: 97%;
+      width: 98%;
       max-width: 1200px;
       float: none;
   }
