@@ -18,6 +18,7 @@
 .wrapper {
   padding: 3px;
   border-radius: 4px;
+  background-color: black;
   width: 90vw;
   height: 90vh;
   /*background: url(painting.png) no-repeat;*/
@@ -40,6 +41,7 @@ div {
   background-color: white;
   border-width: 2px;
   border-radius: 3px;
+  margin-bottom: 10px;
 }
 .b {
   grid-area: b;

@@ -2,43 +2,53 @@
 .wrapper {
   width: 633px;
   height: 458px;
+  background-color: black;
   background: url(mondrian2.png) no-repeat;
- 
+  display: grid;
+  grid-template: 108fr 17fr 86fr 77fr 120fr 216fr/ 451fr 130fr 225fr 103fr;
+  grid-gap: 8px;
+  grid-template-areas:  "a b c d"
+                        "a b c g"
+                        "a e c g"
+                        "a e f g"
+                        "a e j j"
+                        "h i j j";
 }
 div {
 	border: 1px solid black;
 	background-color: white;
-	opacity: 0.5;
+  border-radius: 2px;
+  opacity: 1;
 }
 .a {
-
+  grid-area: a;
 }
 .b {
-
+  grid-area: b;
 }
 .c {
-
+  grid-area: c;
 }
 .d {
-
+  grid-area: d;
 }
 .e {
-
+  grid-area: e;
 }
 .f {
-
+  grid-area: f;
 }
 .g {
-	
+  grid-area: g;	
 }
 .h {
-	
+  grid-area: h;	
 }
 .i {
-	
+  grid-area: i;	
 }
 .j {
-	
+  grid-area: j;	
 }
 
 
