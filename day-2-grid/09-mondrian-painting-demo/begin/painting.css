@@ -1,35 +1,81 @@
 /* Based on "Composition II in Red, Blue, and Yellow," by Piet Mondrian (1930): https://en.wikipedia.org/wiki/Piet_Mondrian */
+*{
+  overflow: hidden;
+  --row1-actual-length: 52;
+  --row2-actual-length: 57;
+  --row3-actual-length: 20;
+  --row4-actual-length: 20;
+  --rows-actual-length-total: calc(var(--row1-actual-length)+var(--row2-actual-length)+var(--row3-actual-length)+var(--row4-actual-length));
+  --row1-as-percentage-value: calc(var(--row1-actual-length)var(--rows-actual-length-total))*100;
+  --row2-as-percentage-value: calc(var(--row2-actual-length)var(--rows-actual-length-total))*100;
+  --row3-as-percentage-value: calc(var(--row3-actual-length)var(--rows-actual-length-total))*100;
+  --row4-as-percentage-value: calc(var(--row4-actual-length)var(--rows-actual-length-total))*100;
+
+
+  
+
+}
 .wrapper {
-  width: 600px;
-  height: 600px;
-  background: url(painting.png) no-repeat;
- 
+  padding: 3px;
+  border-radius: 4px;
+  width: 90vw;
+  height: 90vh;
+  /*background: url(painting.png) no-repeat;*/
+  display: grid;
+  grid-template: 52fr 57fr 20fr 20fr/34fr 104fr 12fr;
+  grid-gap: 3px;
+  grid-template-areas:  "a c c "
+                        "b c c "
+                        "d e f "
+                        "d e g "
+  ;
 }
 div {
 	border: 1px solid black;
 	background-color: white;
-	opacity: 0.5;
+	opacity: 1;
 }
 .a {
-
+  grid-area: a;
+  background-color: white;
+  border-width: 2px;
+  border-radius: 3px;
 }
 .b {
-
+  grid-area: b;
+  background-color: white;
+  border-width: 2px;
+  border-radius: 3px;
 }
 .c {
-
+  grid-area: c;
+  background-color: rgb(255, 0, 0);
+  border-width: 2px;
+  border-radius: 3px;
 }
 .d {
-
+  grid-area: d;
+  background-color: blue;
+  border-width: 2px;
+  border-radius: 3px;
 }
 .e {
-
+  grid-area: e;
+  background-color: white;
+  border-width: 2px;
+  border-radius: 3px;
 }
 .f {
-
+  grid-area: f;
+  background-color: white;
+  border-width: 2px;
+  border-radius: 3px;
 }
 .g {
-	
+  grid-area: g;
+  background-color: yellow;
+  border-width: 2px;
+  border-radius: 3px;
 }
 
 

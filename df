@@ -1,0 +1,13 @@
+[33m40a8349[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m on to day 2
+[33mf7f62f6[m wrapup of day 1 with folder 7.  DENSE informaion on CSS.  Will use this content as reference
+[33mca37578[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m finally NOT hacking with flex-box.  Now we're making sense
+[33m0379807[m Walked through day 1 folder 4.  Not sure reason for her leaving floats in css
+[33m6451d6c[m finished with folder 3 for now.  Adding the reverse class is mucking up the layout of the top row
+[33m4cc1556[m Fixed row 3 by fixing my missing percent sign
+[33m1c24493[m saving state after breaking row 3.  Will commit and checkout previous commit
+[33ma36930c[m adding CSS classes for different media behavior
+[33m75d22b2[m Update README.md
+[33m9119217[m Added another resource
+[33mc328461[m Fixing meta-viewport tag
+[33mffb0df5[m Create README.md
+[33m23f1624[m initial commit

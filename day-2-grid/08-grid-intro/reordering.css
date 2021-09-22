@@ -1,11 +1,13 @@
 .wrapper {
 	display: grid;
 	grid-gap: 10px;
+	padding: 10px;
+	background-color: steelblue;
 	font-family: Arial, sans-serif;
 }
 .wrapper > * {
 	padding: 1em;
-	border-radius: 1em;
+	border-radius: 1.7em;
 }
 header {
 	background-color: blue;
