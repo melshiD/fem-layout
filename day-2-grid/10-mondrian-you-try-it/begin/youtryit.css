@@ -4,6 +4,8 @@
   height: 458px;
   background-color: black;
   background: url(mondrian2.png) no-repeat;
+  border: 5px;
+  border-color: black;
   display: grid;
   grid-template: 108fr 17fr 86fr 77fr 120fr 216fr/ 451fr 130fr 225fr 103fr;
   grid-gap: 8px;
@@ -16,39 +18,50 @@
 }
 div {
 	border: 1px solid black;
-	background-color: white;
+	background-color: black;
   border-radius: 2px;
   opacity: 1;
+  border: 5px;
 }
 .a {
   grid-area: a;
+  background-color: orangered;
 }
 .b {
   grid-area: b;
+  background-color: yellow;
 }
 .c {
   grid-area: c;
+  background-color: white;
 }
 .d {
   grid-area: d;
+  background-color: red;
 }
 .e {
   grid-area: e;
+  background-color: white;
 }
 .f {
   grid-area: f;
+  background-color: blue;
 }
 .g {
-  grid-area: g;	
+  grid-area: g;
+  background-color: white;	
 }
 .h {
-  grid-area: h;	
+  grid-area: h;
+  background-color: white;	
 }
 .i {
-  grid-area: i;	
+  grid-area: i;
+  background-color: blue;	
 }
 .j {
-  grid-area: j;	
+  grid-area: j;
+  background-color: greenyellow;	
 }
 
 
