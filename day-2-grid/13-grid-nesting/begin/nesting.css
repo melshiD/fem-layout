@@ -7,6 +7,19 @@
 	padding: 1em;
 	border-radius: 1em;
 }
+.nested{
+	display: grid; 
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas:
+		"aside1 . aside3";
+}
+.nested aside:first-child{
+	grid-area: aside1;
+}
+.nested aside:last-child{
+	grid-area: aside3;
+}
 header {
 	background-color: blue;
 	color: white;

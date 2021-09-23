@@ -23,7 +23,7 @@ Parent (Grid Container)
 		}
 
 	grid-template-areas: 
-		List of names of areas. First, name areas via selector. Then specify layout via this property. Area name must be specified for each column/row. A . indicates no content in this row/column.
+		List of names of areas. First, name areas via selector. Then specify layout via this property. Area name must be specified for each column/row. A '.' indicates no content in this row/column.
 
 		Note: in this example, the lines are named automatically: header-start, header-end, article-start, article-end, etc.
 
